@@ -7,7 +7,7 @@ https://github.com/Sanya-frontend
 I like to run, hiking and computer games.
 
 ## Skills:
-HTML, CSS, Figma
+HTML, CSS, JS, Figma
 
 ## Code example:
 
