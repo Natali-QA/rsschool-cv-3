@@ -2,6 +2,7 @@
 
 ## Contacts:
 https://github.com/Sanya-frontend
+https://www.codewars.com/users/Sanechka-frontend
 
 ## About:
 I like to run, hiking and computer games.
