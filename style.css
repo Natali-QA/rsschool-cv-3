@@ -1,0 +1,11 @@
+html {
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100%;
+    font-size: 1.8rem;
+    color: №000;
+    font-family: 'Roboto', Verdana, sans-serif;
+}
