@@ -1,12 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/vs.min.css">
+    <link rel="stylesheet" href="src/js/libs/styles/base16/solarized-dark.min.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <title>Resume</title>
 </head>
+
 <body>
-    
+    <div class="hero">
+        <header class="header">
+            <nav>
+                <ul class="navigation">
+                    <li class="navigation__item">
+                        <a class="navigation__link" href="#about">About me</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="navigation__link" href="#skills">Skills</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="navigation__link" href="#projects">Projects</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="navigation__link" href="#education">Education & Experience</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="navigation__link" href="#language">Language skills</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="navigation__link" href="#code">Code example</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main container">
+            <div class="wrapper">
+                <section class="about" id="about">
+                    <img class="avatar-img" src="src/img/ava.jpg" alt="avatar" width="200" height="300">
+                    <div class="about__content">
+                        <p class="about__text">Hello! I'm</p>
+                        <h1 class="about__title">Alexandra Delmeeva</h1>
+                        <p class="about__subtitle">Junior front-end</p>
+                    </div>
+                    <p>
+                        I am interested in web design and front-end development.
+                        I love board and computer games and also go hiking.
+                    </p>
+                    <p>   
+                        Over 7 years of working as a cook, I have acquired valuable skills:
+                    </p>
+                    <ul class="about__list">
+                        <li class="about__item">
+                            Teamwork
+                        </li>
+                        <li class="about__item">
+                            Training of interns and new staff. Monitoring of task performance
+                        </li>
+                        <li class="about__item">
+                            Setting and Disrupting Challenges
+                        </li>
+                        <li class="about__item">
+                            When you want to sit down and cry - never give up!
+                        </li>
+                    </ul>
+                    <ul class="contacts">
+                        <li class="contacts__item">
+                            <a href="mailto:delmeeva.a@gmail.com" class="contacts__link">E-mail</a>
+                        </li>
+                        <li class="contacts__item">
+                            <a class="contacts__link" href="https://t.me/Sandra" target="_blank">Telegram</a>
+                        </li>
+                        <li class="contacts__item">
+                            <a class="contacts__link" href="https://github.com/Sanya-frontend" target="_blank">Github</a>
+                        </li>
+                    </ul>
+
+                </section>
+                <section class="skills" id="skills">
+                    <div class="skills__container">
+                        <h2 class="section-title skills__title">Skills</h2>
+                        <ul class="skill-list">
+                            <li class="skill-list__item">
+                                Html5
+                            </li>
+                            <li class="skill-list__item">
+                                Css3
+                            </li>
+                            <li class="skill-list__item">
+                                Javascript
+                            </li>
+                            <li class="skill-list__item">
+                                Figma/Photoshop
+                            </li>
+                            <li class="skill-list__item">
+                                Git/Github
+                            </li>
+                            <li class="skill-list__item">
+                                React in the process of studying.
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+
+            <section class="projects" id="projects">
+                <h2 class="section-title">Projects</h2>
+                <ul class="project-list">
+                    <li class="project-list__item">
+                        <a class="project-list__link" href="https://Sanya-frontend.github.io/rsschool-cv"
+                            target="_blank">
+                            <img src="src/img/project1.jpg" alt="portfolio">
+                            <h3>Project: Cv</h3>
+                            <p>Html, Css, JS</p>
+                            <p>Read more</p>
+                        </a>
+                    </li>
+                    <li class="project-list__item">
+                        <a class="project-list__link" href="https://codepen.io/Sanya-frontend/pen/XWeELxj"
+                            target="_blank">
+                            <img src="src/img/codepen-skills.jpg" alt="portfolio">
+                            <h3>Project: Animated Skills Bar</h3>
+                            <p>Html, Css</p>
+                            <p>Read more</p>
+                        </a>
+                    </li>
+                    <li class="project-list__item">
+                        <a class="project-list__link" href="https://Sanya-frontend.github.io/rsschool-cv "
+                            target="_blank">
+                            <img src="src/img/project1.jpg" alt="portfolio">
+                            <h3>Project: Cv</h3>
+                            <p>Html, Css, JS</p>
+                            <p>Read more</p>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+
+            <div class="wrapper">
+                <section class="education" id="education">
+                    <h2 class="section-title">Education & Experience</h2>
+                    <p>
+                        I read specialized books and watch educational videos on Udemy.
+                    </p>
+                    <p>I'm also doing a course in The Rolling Scopes School «JavaScript/Front-end. Stage 0»</p>
+                    <p>No professional experience at the moment</p>
+                    <p>Set a challenge for myself: complete 300 tasks on Codewars by March 3, 2022</p>
+                </section>
+                <section class="languages" id="language">
+                    <div class="languages__container">
+                        <h2 class="section-title">Language skills</h2>
+                        <ul class="languages-list">
+                            <li class="languages-list__item">
+                                Russian: native
+                            </li>
+                            <li class="languages-list__item">
+                                English: A2
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+
+            <div class="wrapper">
+                <section class="code" id="code">
+                    <div class="code__content">
+                        <h2 class="section-title code__title">Code example</h2>
+                        <a class="code__link" href="https://www.codewars.com/kata/560ecf0cb040de130e00007d" target="_blank">Grasshopper Order of Operations</a>
+                        <p>
+                            You are running the calculation 2 + 2 * 2 + 2 * 2 and expect to get the answer 32 but instead the function keeps returning 10. Fix the function to make it return 32 without changing the number or the operators.</p>
+                    </div>
+                    <pre>
+
+                    <code class="code">
+        function orderOperations () {
+            return (2 + 2) * (2 + 2) * 2
+            }</code>
+                </pre>
+                </section>
+            </div>
+
+        </main>
+        <footer class="footer">
+            <div class="container footer__container">
+                <ul class="footer-list">
+                    <li class="footer-list__item">
+                        <a href="https://github.com/Sanya-frontend" target="_blank">Github</a>
+                    </li>
+                    <li class="footer-list__item" data-tooltip="С Новым годом!">
+                        2022
+                    </li>
+                    <li class="footer-list__item">
+                        <a href="https://rs.school/js/" target="_blank">
+                            <img src="src/img/logo.svg" alt="logo" width="80" height="29">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+
+    <script src="src/js/libs/styles/base16/solarized-dark.min.css"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
+    <script>
+        hljs.highlightAll();
+    </script>
+    <script src="src/js/script.js"></script>
 </body>
+
 </html>
